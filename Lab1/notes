@@ -1,0 +1,30 @@
+/* ---------------------------- Bits and storage ---------------------------- */
+RAM: 12GB
+
+Storage (Hard drive): 256GB
+
+CPU: 8cores 4x3.1GHz
+	 12GB RAM
+
+
+1B = 8bit = 00001000
+Computers stores informtion in bits (0|1)
+
+
+
+open source => code is available
+free ? => lisences
+
+
+Interpretars vs Compilartor
+
+Compilar (C++, Java, C#)
+    => books translator
+
+Interpreter (Python, PHP, JavaScrip, Ruby)
+    => simultanious translator
+
+
+Text Editor=> notepad, VSCode
+MSWord=
+
