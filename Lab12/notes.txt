@@ -1,0 +1,16 @@
+# -------------------------- Procedural Programming -------------------------- #
+def sub_task1():
+    pass
+
+def sub_task2():
+    pass
+
+def sub_taskN():
+    pass
+
+
+# main program
+sub_task1()
+sub_task2()
+
+sub_taskN()
