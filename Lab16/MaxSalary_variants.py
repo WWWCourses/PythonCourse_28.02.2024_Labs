@@ -30,7 +30,8 @@ def variant1():
             max_salaray = emp.salary
             max_employee = emp
 
-    print(max_employee.name)
+    if max_employee:
+        print(max_employee.name)
 
 # -------------------- Variant1: overload '>' for Employee ------------------- #
 def variant2():
