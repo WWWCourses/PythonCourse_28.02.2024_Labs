@@ -16,17 +16,20 @@ def increment(r):
 
 
 if __name__ == "__main__":
-  # MAX_RANGE = 100
+  MAX_RANGE = 100_000_000
   # x = 0
+
+  start = time.time()
+
   queue = mp.Queue()
   queue.put(0)
 
-  pr1 = mp.Process(target=increment, args=(range(100),))
-  pr2 = mp.Process(target=increment, args=(range(100),))
-
+  pr1 = mp.Process(target=increment, args=(range(MAX_RANGE),))
+  pr2 = mp.Process(target=increment, args=(range(MAX_RANGE),))
   pr1.start();pr2.start();
-  # pr1.join();pr2.join();
+  pr1.join();pr2.join();
 
-  # TODO: explain why blocking...
   x = queue.get()
+  time_taken = time.time() - start
   print(f"x in {mp.current_process().name}: {x}")
+  print(time_taken)
