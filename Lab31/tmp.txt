@@ -1,0 +1,6 @@
+Regular Expression (shortly Regex) is a string pattern, which can match or not other strings.
+You can think of it a as a kind of search mechanism.
+bocanist
+Regular Expressions are coming from the regular language defined by Kleene in the early 1950s.
+Nowadays, almost all programming languages implements the concept of Regex.
+Also text editors (like VSCode), IDEs, Databases, CLI toos and more implements them
