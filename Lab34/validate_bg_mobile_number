@@ -1,0 +1,24 @@
+import re
+
+
+def is_valid_bg_mobile_number(input_str):
+    bg_mobile_re = re.compile(r'^\+359\s[7-9]{2}\s[7-9][0-9]{3}\s[0-9]{3}$')
+    return bg_mobile_re.search(input_str)
+
+
+
+
+test_strings = [
+    '+359 88 7123 456',
+    '+359 87 9123 456',
+    '+359 86 7123456',
+    '+359 88 1123 456',
+]
+
+for input_str in test_strings:
+    if is_valid_bg_mobile_number(input_str):
+        print(f'{input_str} #yes')
+    else:
+        print(f'{input_str} #no')
+
+
