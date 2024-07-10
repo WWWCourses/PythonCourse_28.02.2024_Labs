@@ -1,0 +1,17 @@
+Users
+Id, Name, Age, AddressID
+1, "Ada", 34,    1,
+2, "Pesho1", 44, 1,
+3, "Pesho2", 44, 2,
+4, "Pesho3", 44
+5, "Pesho4", 44
+6, "Pesho5", 44,
+7, "Pesho6", 44
+8, "Pesho7", 44,
+9, "Pesho8", 44,
+
+
+Addresses
+Id, City, State, ZIP
+1,  Sofia, Sofia, 1800
+2,  Plovdiv, Plovdiv, 4200
