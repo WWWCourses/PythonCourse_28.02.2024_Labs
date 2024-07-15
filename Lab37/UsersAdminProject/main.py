@@ -30,7 +30,3 @@ if __name__=='__main__':
     # else:
     #     print('User NOT registered!')
 
-
-    lo
-
-
