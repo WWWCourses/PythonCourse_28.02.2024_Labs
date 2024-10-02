@@ -40,6 +40,13 @@ class MainWindow(qtw.QWidget):
         mainLayout.addLayout(formLayout)
         mainLayout.addStretch(1)
 
+        #############################################################################
+        #                                                                           #
+        #    HW: Implement signals and slots to print the text from leUserName      #
+        #    and leUserPassword to the console when the Login button is clicked.    #
+        #                                                                           #
+        #############################################################################
+
 
 if __name__ == '__main__':
     app = qtw.QApplication(sys.argv);
