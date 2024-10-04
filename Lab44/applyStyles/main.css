@@ -1,0 +1,20 @@
+QPushButton{
+    background-color: blue;
+}
+QPushButton:hover{
+    background-color:orange;
+    color:aquamarine;
+
+}
+
+#btn1{
+    background-color:burlywood;
+}
+
+QLineEdit{
+    border: 5px solid red;
+}
+
+QLabel{
+    color: green
+}
