@@ -1,0 +1,46 @@
+# ----------------------------------- IPv4: ---------------------------------- #
+
+129.23.45.90    => OK
+0.0.0.0         => OK
+255.255.255.255 => OK
+256.23.45.90 => invalid
+
+127.0.0.1
+
+
+Chat
+192.168.0.1:344  => 192.180.1.5:9999
+
+Stream
+192.168.0.1:234
+
+# ------------------------------------ DNS ----------------------------------- #
+Domain Name Service
+mysite.com  =>  34.58.233.1
+
+
+# ---------------------- URL : Unified Resource Locator ---------------------- #
+
+https://wwwcourses.github.io/PythonCourseNetIT-Slides/pages/themes/NetworkProgramming-Lecture2/NetworkProgramming-Lecture2.html#/8
+
+file:///media/nemsys/data/projects/courses/netIT/PythonCourseNetIT/Labs_28.02.2024/Lab46/mysite.com/index.html
+
+http://192.168.40.94:3333
+http://192.168.40.94:3333/index.html
+
+https://wwwcourses.github.io/PythonCourseNetIT-Slides/pages/themes/NetworkProgramming-Lecture2/NetworkProgramming-Lecture2.html#/8/2
+
+
+https://www.google.com/data/search.php?q=tim+berners+lee&sca_esv=29880a52b809b5f4&source=hp&ei=M2IJZ-n6M4SH7NYPkvXc6QI&iflsig=AL9hbdgAAAAAZwlwQ8ZsGw_bdqL1XrXwsHr3inzBT4Nd&gs_ssp=eJzj4tDP1TcwTzFNMmD04i_JzFVISi3KSy0qVshJTQUAbBEIew&oq=tim+berned&gs_lp=Egdnd3Mtd2l6Igp0aW0gYmVybmVkKgIIADIHEC4YgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDUjKxAJQmBZYmLYCcAV4AJABAJgBpQGgAZIPqgEEMC4xNLgBA8gBAPgBAZgCEaACohGoAgDCAgsQLhiABBjRAxjHAcICBRAAGIAEwgIFEC4YgATCAg4QLhiABBjRAxjUAhjHAcICCBAuGIAEGNQCwgIHEC4YgAQYCpgDBJIHBjMuMTMuMaAHm7cB&sclient=gws-wiz
+
+http://192.168.40.94:3333/index.py
+
+http://192.168.40.94:3333/index?name=Ada&pass=1234
+
+
+Request Message:
+Path: index = /cgi-bin/index.py
+Query: name=Ada&pass=1234
+
+# --------------------------------- Dev Tools -------------------------------- #
+CTRL+SHIF+I
