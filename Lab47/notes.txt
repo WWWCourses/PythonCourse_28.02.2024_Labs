@@ -1,0 +1,121 @@
+URLs:
+https://wwwcourses.github.io/PythonCourseNetIT-Slides/pages/themes/NetworkProgramming-Lecture2/NetworkProgramming-Lecture2.html
+
+http://127.0.0.1:433/Lab46/mysite.com/index.html
+PATH: Lab46/mysite.com/index.html
+
+http://127.0.0.1:3333/index
+PATH:/index
+
+
+Request Mesage (http://127.0.0.1:3333/frontend/):
+GET /frontend/ HTTP/1.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,und;q=0.8,bg;q=0.7
+Connection: keep-alive
+Cookie: csrftoken=SrVggBtb0EEH3vdATIaqvje1EN1vWdcY
+Host: 127.0.0.1:3333
+Referer: http://127.0.0.1:3333/
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Linux"
+
+Response Message:
+HTTP/1.1 304 Not Modified
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0
+Last-Modified: Wed, 16 Oct 2024 16:19:46 GMT
+ETag: W/"219-1929620d0f3"
+Date: Wed, 16 Oct 2024 16:52:49 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+
+https://wwwcourses.github.io/PythonCourseNetIT-Slides/pages/themes/NetworkProgramming-Lecture2/NetworkProgramming-Lecture2.html#/12/2
+Request Message:
+:authority:
+wwwcourses.github.io
+:method:
+GET
+:path:
+/PythonCourseNetIT-Slides/pages/themes/NetworkProgramming-Lecture2/NetworkProgramming-Lecture2.html
+:scheme:
+https
+accept:
+text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+accept-encoding:
+gzip, deflate, br, zstd
+accept-language:
+en-US,en;q=0.9,und;q=0.8,bg;q=0.7
+cache-control:
+max-age=0
+if-modified-since:
+Wed, 16 Oct 2024 13:54:36 GMT
+if-none-match:
+W/"670fc59c-a2ca"
+priority:
+u=0, i
+sec-ch-ua:
+"Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+sec-ch-ua-mobile:
+?0
+sec-ch-ua-platform:
+"Linux"
+sec-fetch-dest:
+document
+sec-fetch-mode:
+navigate
+sec-fetch-site:
+same-origin
+sec-fetch-user:
+?1
+upgrade-insecure-requests:
+1
+user-agent:
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+
+Response Message:
+cache-control:
+max-age=600
+date:
+Wed, 16 Oct 2024 17:17:21 GMT
+etag:
+W/"670fc59c-a2ca"
+expires:
+Wed, 16 Oct 2024 16:13:26 GMT
+vary:
+Accept-Encoding
+via:
+1.1 varnish
+x-cache:
+HIT
+x-cache-hits:
+0
+x-fastly-request-id:
+32b4a537e196126bc83c7e9ca2c5fcda4eda8286
+x-served-by:
+cache-sof1510023-SOF
+x-timer:
+S1729099041.410754,VS0,VE1
+
+
+
+https://www.google.com/search
+
+?q=HTTP&
+sca_esv=25ac67c7e3425c2e&
+source=hp&
+ei=zPkPZ9P_OJCTxc8Pv7DdmAw&
+iflsig=AL9hbdgAAAAAZxAH3P-XZxWdHGTdZKujEl3OiB2yeIij&
+ved=0ahUKEwjTlZ2ruJOJAxWQSfEDHT9YF8MQ4dUDCBY&
+uact=5&
+oq=HTTP&
+gs_lp=Egdnd3Mtd2l6IgRIVFRQMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEj-KVD5IliWJnABeACQAQCYAakBoAHDBKoBAzAuNLgBA8gBAPgBAZgCBKAChwWoAgDCAgsQLhiABBjRAxjHAcICBRAuGIAEwgIOEC4YgAQY0QMY1AIYxwHCAggQLhiABBjUApgDA5IHBTAuMy4xoAfUJA&
+sclient=gws-wiz
